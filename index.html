@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gifs!</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Gifs!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/lib/jquery-1.8.0.min.js"></script>
+    <script src="js/lib/highlight-7.1.min.js"></script>
+    <script src="js/lib/jquerytypewriter.js"></script>
+    <script src="js/lib/underscore-1.3.3.min.js"></script>
+    <script src="js/lib/jquery.touchSwipe.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/sizer.js"></script>
+    <script src="js/bullets.js"></script>
+    <script src="js/trickster.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/custom.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+      $(window).load(function() {
+        TricksterTimer = TricksterTimer(TricksterDefaultConfig,{});
+        TricksterTimer.setup();
+
+        Trickster = TricksterLoader(TricksterDefaultConfig,{});
+        Trickster.load(TricksterTimer);
+
+      });
+    </script>
+    
+  </head>
+  <body><div id="contents">
+    <section class='TITLE bg-gray'>
+<h1><h1>A Brief History of <span>Gifs</span></h1></h1>
+</section>
+<section class='SECTION bg-green'>
+<h1>?</h1>
+</section>
+<section class='FREEFORM'>
+<div class="split-green">
+  <h1>Hard G</h1>
+  <h3>\‘gif\</h3>
+</div>
+<div class="split-yellow">
+  <h1>Soft G</h1>
+  <h3>\‘jif\</h3>
+</div>
+</section>
+<section class='IMAGE bg-hatch'>
+<h1><img src="http://media2.giphy.com/media/TOmUqX1Vl97C8/giphy.gif" alt="bugs and daffy"></h1>
+</section>
+<section class='SECTION' data-background='14EFAD'>
+<h1>they are both right.</h1>
+</section>
+<section class='SECTION bg-gray'>
+<h1><h1>1987</h1></h1>
+<h2><h2>gif 1.0</h2></h2>
+</section>
+<section class='FREEFORM bg-dotpattern'>
+<h1><img id="steve" class="animated bounceIn" src="assets/steve-03.gif" alt="Steve Wilhite"></h1>
+<h2><h4>Steve Wilhite</h4></h2>
+</section>
+<section class='IMAGE bg-dash <!-- compuserve logo -->'>
+<h1><img src="http://media.giphy.com/media/frTgEFLFtcqVW/giphy.gif" alt="compuserve"></h1>
+</section>
+<section class='SECTION bg-gray'>
+<h1>why?</h1>
+<h2>they needed to show weather maps</h2>
+<h3>all the other formats sucked</h3>
+</section>
+<section class='SECTION bg-green'>
+<h1>specs</h1>
+<h2>256 colors</h2>
+<h3>allowed animation (its saviour),</h3>
+</section>
+<section class='SECTION bg-gray'>
+<h1>The</h1>
+</section>
+<section class='SECTION bg-gray'>
+<h1>First</h1>
+</section>
+<section class='SECTION bg-gray'>
+<h1>.GIF</h1>
+</section>
+<section class='IMAGE bg-dotpattern'>
+<h1><img class="img-airplane" src="/assets/steve-airplane.jpg" alt="first gif"></h1>
+</section>
+<section class='SECTION bg-black'>
+<h1>”The future of computer graphics, online or offline, will almost certainly center on GIF.”</h1>
+</section>
+
+    </div>
+    <aside id="timer">
+      <div id="clock">
+        <span class="hours">
+          <span id="hour">0</span> :
+        </span>
+        <span class="minutes">
+          <span id="minute">00</span> 
+        </span>
+        <span class="seconds"> : 
+          <span id="second">00</span>
+        </span>
+      </div>
+      <div id="controls">
+        <a id="stop" href="#" onclick="return TricksterTimer.stop();">◼</a>
+        <a id="play" href="#" onclick="return TricksterTimer.play();">▶</a>
+        <a id="pause" href="#" onclick="return TricksterTimer.pause();">▮▮</a>
+      </div>
+    </aside>    
+  </body>
+</html>

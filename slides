@@ -1,0 +1,60 @@
+Gifs!
+!TITLE bg-gray
+<h1>A Brief History of <span>Gifs</span></h1>
+
+!SECTION bg-green
+?
+
+!FREEFORM
+<div class="split-green">
+  <h1>Hard G</h1>
+  <h3>\‘gif\</h3>
+</div>
+<div class="split-yellow">
+  <h1>Soft G</h1>
+  <h3>\‘jif\</h3>
+</div>
+
+!IMAGE bg-hatch
+<img src="http://media2.giphy.com/media/TOmUqX1Vl97C8/giphy.gif" alt="bugs and daffy">
+
+!SECTION: background=14EFAD <!-- green -->
+they are both right.
+
+!SECTION bg-gray
+<h1>1987</h1>
+<h2>gif 1.0</h2>
+
+!FREEFORM bg-dotpattern
+<img id="steve" class="animated bounceIn" src="assets/steve-03.gif" alt="Steve Wilhite">
+<h4>Steve Wilhite</h4>
+
+!IMAGE bg-dash <!-- compuserve logo -->
+<img src="http://media.giphy.com/media/frTgEFLFtcqVW/giphy.gif" alt="compuserve">
+
+!SECTION bg-gray
+why?
+they needed to show weather maps
+all the other formats sucked
+
+!SECTION bg-green
+specs
+256 colors
+allowed animation (its saviour),
+used lzw (uh-oh),
+lossless
+
+!SECTION bg-gray
+The
+
+!SECTION bg-gray
+First
+
+!SECTION bg-gray
+.GIF
+
+!IMAGE bg-dotpattern
+<img class="img-airplane" src="/assets/steve-airplane.jpg" alt="first gif">
+
+!SECTION bg-black
+”The future of computer graphics, online or offline, will almost certainly center on GIF.”

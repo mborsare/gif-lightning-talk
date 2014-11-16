@@ -1,0 +1,237 @@
+/*
+ * This is where you can make custom styles for the visual
+ * aspects of your slideshow.
+ *
+ * You shouldn't do too much custom sizing here, as it may
+ * mess up the automatic sizing algorithm.
+ */
+$green: #14EFAD;
+$yellow: #FFFFD5;
+$gray: #B3B2B3;
+$red: #EF2E46;
+
+@import "animate";
+
+@font-face {
+    font-family: '8-bit_madnessregular';
+    src: url('/assets/8-bit-madness-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#contents {
+  align-items: center;//flexing
+  justify-content: center;//flexing
+  display: flex;//flexing
+  height: 100vh;//flexing
+  min-height: 24em;
+  text-rendering: optimizeLegibility;
+
+  %img-treatment {
+    -webkit-box-shadow: 10px 10px 0px 6px rgba(20, 239, 173, 0.75);
+    border: 6px solid black;
+  }
+
+  img {
+    @extend %img-treatment;
+  }
+}
+
+body {
+  &.bg-dotpattern {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=) repeat;
+  }
+
+  &.bg-hatch {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOUlEQVQYV43MQQ4AIAgDQfv/R4OYaFChsOfJYvQSNJxMgwouZDMGD2LwQhn8UARD9MIUeUjRhiUyqPw8Cgq7TDlmAAAAAElFTkSuQmCC) repeat;
+  }
+
+  &.bg-dash {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAI0lEQVQYV2NkIAIwElKTmZn5H68ikILp06czEjQJZNOQVQQA2F8GRJgB4GQAAAAASUVORK5CYII=) repeat;
+  }
+
+  &.bg-green {
+    background-color: $green;
+  }
+
+  &.bg-gray {
+    background-color: $gray;
+  }
+
+  &.bg-black {
+    background-color: black;
+  }
+
+  &.bg-yellow {
+    background-color: $yellow;
+  }
+
+  %split {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+    height: 100vh;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+  }
+
+  .split-green {
+    @extend %split;
+    left: 0;
+    background: $green;
+  }
+
+  .split-yellow {
+    @extend %split;
+    left: 50%;
+    background: $yellow;
+
+    h1 {
+      color: $green;
+    }
+  }
+
+  #steve {
+    height: 250px;
+    width: auto;
+  }
+
+  .img-airplane {
+  }
+
+  .COMMANDLINE {
+    background: black;
+  }
+
+  .CODE {
+    background: #eee8d5;
+  }
+}
+
+section {
+  text-align: center;
+
+  h1, h2, h3, h4 {
+    margin: 0;
+    font-family: "8-bit_madnessregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+  }
+
+  h1 {
+    color: $yellow;
+  }
+
+  h2 {
+    color: white;
+    font-size: 90%;
+  }
+
+  h3 {
+    font-size: 80%;
+  }
+
+  p, li {
+    font-family: Helvetica, Arial;
+  }
+
+  li {
+    list-style: disc;
+    list-style-position: outside;
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+  }
+
+  &.TITLE, &.SECTION, &.IMAGE, &.NORMAL {
+    text-align: center;
+  }
+
+  &.TITLE {
+    h1 {
+      color: $green;
+    }
+
+    span {
+      color: $yellow;
+    }
+  }
+
+  &.BULLETS {
+    margin-left: 64px;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  &.COMMANDLINE {
+    code {
+      background: black;
+      color: #00ff00;
+    }
+
+    .cli-prompt {
+      font-weight: bold;
+      color: white;
+    }
+
+    .cli-command {
+      color: #00ffff;
+    }
+  }
+}
+
+section.CODE code {
+  /*
+  border-radius: 30px;
+  */
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  box-shadow: 0 0.3em 0.2em -0.2em #ddd7c4;
+}
+
+#timer {
+  opacity: .1;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  /* uncomment this to remove the timer
+  display: none;
+  */
+}
+
+#timer a {
+  text-decoration: none;
+}
+#timer #clock, #timer #controls {
+  display: inline;
+}
+
+#timer #pause {
+  letter-spacing: -0.2em;
+}
+
+#timer.time-ok {
+  background: green;
+}
+
+#timer.time-warn {
+  background: yellow;
+}
+
+#timer.time-alert {
+  background: red;
+}
+
+#timer.time-over {
+  background: red;
+}
+#timer #controls {
+  /* Uncomment this if you want to hide the timer controls
+  display: none;
+  */
+}
