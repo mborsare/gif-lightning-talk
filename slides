@@ -29,7 +29,7 @@ they are both right.
 1987 – Birth
 
 !FREEFORM bg-dotpattern
-<img id="steve" class="animated bounceIn img-drop" src="assets/steve-03.gif" alt="Steve Wilhite">
+<img class="animated bounceIn img-drop" src="assets/steve-03.gif" alt="Steve Wilhite" width="250px">
 <h4>Steve Wilhite</h4>
 
 !IMAGE bg-dash <!-- compuserve logo -->
@@ -40,7 +40,7 @@ Why?
 They needed to show weather maps
 
 !IMAGE bg-hatch
-<img class="img-drop" src="http://www.gsbrown.org/compuserve/get-the-picture-1989-06/spread.jpg" alt="compuserve spread">
+<img class="img-drop" src="http://www.gsbrown.org/compuserve/get-the-picture-1989-06/spread.jpg" alt="compuserve spread" width="700px">
 
 !SECTION bg-green
 Specs
@@ -61,7 +61,7 @@ First
 .GIF
 
 !IMAGE bg-dotpattern
-<img class="img-airplane img-drop" src="/assets/steve-airplane.jpg" alt="first gif">
+<img class="img-drop" src="/assets/steve-airplane.jpg" alt="first gif" width="450px">
 
 !SECTION bg-green
 ”The future of computer graphics, online or offline, will almost certainly center on GIF.”
@@ -84,12 +84,24 @@ Yes – the future.
 !SECTION bg-yellow color-green
 90s – Crisis
 
-!IMAGE bg-dash
-<img id="unisys" src="http://upload.wikimedia.org/wikipedia/commons/f/f9/Unisys_logo.svg" alt="unisys logo">
+!IMAGE bg-dotpattern
+<img class="animated bounceIn" src="http://upload.wikimedia.org/wikipedia/commons/f/f9/Unisys_logo.svg" alt="unisys logo" width="400px">
 
 !SECTION bg-yellow color-green
 2000s – Web 2.0
 
+!SECTION bg-green
+tumblr, twitter, et al. happen
 
+!SECTION bg-gray
+all the sudden there’s a way to distribute gifs
+
+!SECTION bg-green
+ironic, fun, hand in hand with memes
+
+!IMAGE bg-black
+<div class="keyboard-cat flex">
+  <h1>meoooowww</h1>
+</div>
 
 

@@ -2141,12 +2141,20 @@ Copyright (c) 2014 Daniel Eden
 
 body iframe {
   border: none;
-  height: 1000px;
+  height: 100vw;
+  left: 0;
   margin: 0;
   padding: 0;
-  width: 1000px; }
+  position: fixed;
+  top: 0;
+  width: 100vw; }
 body .flex {
   display: flex; }
+body .keyboard-cat {
+  background-image: url("http://media.giphy.com/media/8l98VVUTKPhbG/giphy.gif");
+  background-size: 200px;
+  width: 100vw;
+  height: 100vh; }
 body .color-green h1 {
   color: #14EFAD; }
 body.bg-dotpattern {
@@ -2184,15 +2192,6 @@ body .split-yellow {
   background: #FFFFD5; }
   body .split-yellow h1 {
     color: #14EFAD; }
-body #steve {
-  height: 250px;
-  width: auto; }
-body .img-airplane {
-  height: 450px;
-  width: auto; }
-body #unisys {
-  width: 400px;
-  height: auto; }
 body #bugsdaffy {
   -webkit-animation-delay: 1.75s; }
 body .split-copy {

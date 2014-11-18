@@ -44,14 +44,24 @@ $red: #EF2E46;
 body {
   iframe {
     border: none;
-    height: 1000px;
+    height: 100vw;
+    left: 0;
     margin: 0;
     padding: 0;
-    width: 1000px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
   }
 
   .flex {
     display: flex;
+  }
+
+  .keyboard-cat {
+    background-image: url("http://media.giphy.com/media/8l98VVUTKPhbG/giphy.gif");
+    background-size: 200px;
+    width: 100vw;
+    height: 100vh;
   }
 
   .color-green {
@@ -119,21 +129,6 @@ body {
     h1 {
       color: $green;
     }
-  }
-
-  #steve {
-    height: 250px;
-    width: auto;
-  }
-
-  .img-airplane {
-    height: 450px;
-    width: auto;
-  }
-
-  #unisys {
-    width: 400px;
-    height: auto;
   }
 
   #bugsdaffy {
