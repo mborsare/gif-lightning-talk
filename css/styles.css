@@ -2133,10 +2133,22 @@ Copyright (c) 2014 Daniel Eden
   height: 100vh;
   min-height: 24em;
   text-rendering: optimizeLegibility; }
-  #contents img {
+  #contents .img-drop {
     -webkit-box-shadow: 10px 10px 0px 6px rgba(20, 239, 173, 0.75);
     border: 6px solid black; }
+  #contents .img-drop.black {
+    -webkit-box-shadow: 10px 10px 0px 6px rgba(50, 50, 50, 0.75); }
 
+body iframe {
+  border: none;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  width: 1000px; }
+body .flex {
+  display: flex; }
+body .color-green h1 {
+  color: #14EFAD; }
 body.bg-dotpattern {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=) repeat; }
 body.bg-hatch {
@@ -2151,6 +2163,8 @@ body.bg-black {
   background-color: black; }
 body.bg-yellow {
   background-color: #FFFFD5; }
+body.bg-red {
+  background-color: #EF2E46; }
 body .split-green, body .split-yellow {
   align-items: center;
   display: flex;
@@ -2173,6 +2187,16 @@ body .split-yellow {
 body #steve {
   height: 250px;
   width: auto; }
+body .img-airplane {
+  height: 450px;
+  width: auto; }
+body #unisys {
+  width: 400px;
+  height: auto; }
+body #bugsdaffy {
+  -webkit-animation-delay: 1.75s; }
+body .split-copy {
+  -webkit-animation-delay: 1.5s; }
 body .COMMANDLINE {
   background: black; }
 body .CODE {
@@ -2217,14 +2241,10 @@ section {
     color: white; }
   section.COMMANDLINE .cli-command {
     color: #00ffff; }
-
-section.CODE code {
-  /*
-  border-radius: 30px;
-  */
-  border-bottom-right-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
-  box-shadow: 0 0.3em 0.2em -0.2em #ddd7c4; }
+  section.CODE code {
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    box-shadow: 0 0.3em 0.2em -0.2em #ddd7c4; }
 
 #timer {
   opacity: .1;

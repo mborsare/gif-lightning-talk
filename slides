@@ -6,43 +6,50 @@ Gifs!
 ?
 
 !FREEFORM
+<div id="bugsdaffy" class="flex animated bounceIn img-drop black">
+  <img src="http://media2.giphy.com/media/TOmUqX1Vl97C8/giphy.gif" alt="bugs and daffy">
+</div>
 <div class="split-green">
-  <h1>Hard G</h1>
-  <h3>\‘gif\</h3>
+  <div class="animated bounceOut split-copy">
+    <h1>Hard G</h1>
+    <h3>\‘gif\</h3>
+  </div>
 </div>
 <div class="split-yellow">
-  <h1>Soft G</h1>
-  <h3>\‘jif\</h3>
+  <div class="animated bounceOut split-copy">
+    <h1>Soft G</h1>
+    <h3>\‘jif\</h3>
+  </div>
 </div>
 
-!IMAGE bg-hatch
-<img src="http://media2.giphy.com/media/TOmUqX1Vl97C8/giphy.gif" alt="bugs and daffy">
-
-!SECTION: background=14EFAD <!-- green -->
+!SECTION bg-green
 they are both right.
 
-!SECTION bg-gray
-<h1>1987</h1>
-<h2>gif 1.0</h2>
+!SECTION bg-yellow color-green
+1987 – Birth
 
 !FREEFORM bg-dotpattern
-<img id="steve" class="animated bounceIn" src="assets/steve-03.gif" alt="Steve Wilhite">
+<img id="steve" class="animated bounceIn img-drop" src="assets/steve-03.gif" alt="Steve Wilhite">
 <h4>Steve Wilhite</h4>
 
 !IMAGE bg-dash <!-- compuserve logo -->
-<img src="http://media.giphy.com/media/frTgEFLFtcqVW/giphy.gif" alt="compuserve">
+<img class="img-drop" src="http://media.giphy.com/media/frTgEFLFtcqVW/giphy.gif" alt="compuserve">
 
 !SECTION bg-gray
-why?
-they needed to show weather maps
-all the other formats sucked
+Why?
+They needed to show weather maps
+
+!IMAGE bg-hatch
+<img class="img-drop" src="http://www.gsbrown.org/compuserve/get-the-picture-1989-06/spread.jpg" alt="compuserve spread">
 
 !SECTION bg-green
-specs
+Specs
+
+!SECTION
 256 colors
-allowed animation (its saviour),
-used lzw (uh-oh),
-lossless
+Allowed animation (its saviour),
+Used lzw (uh-oh),
+Lossless
 
 !SECTION bg-gray
 The
@@ -54,7 +61,35 @@ First
 .GIF
 
 !IMAGE bg-dotpattern
-<img class="img-airplane" src="/assets/steve-airplane.jpg" alt="first gif">
+<img class="img-airplane img-drop" src="/assets/steve-airplane.jpg" alt="first gif">
+
+!SECTION bg-green
+”The future of computer graphics, online or offline, will almost certainly center on GIF.”
+
+!SECTION bg-gray
+Yes – the future.
 
 !SECTION bg-black
-”The future of computer graphics, online or offline, will almost certainly center on GIF.”
+<iframe src="http://caccioppoli.com/Gifs%20animation%20arrows%20back%20construction%20directions.htm" name="gifs" scrolling="auto">
+</iframe>
+
+!SECTION bg-black
+<iframe src="http://caccioppoli.com/Gifs%20Flags%20one.htm" name="gifs" scrolling="auto">
+</iframe>
+
+!SECTION bg-black
+<iframe src="http://caccioppoli.com/Gifs%20music%20dance.htm" name="gifs" scrolling="auto">
+</iframe>
+
+!SECTION bg-yellow color-green
+90s – Crisis
+
+!IMAGE bg-dash
+<img id="unisys" src="http://upload.wikimedia.org/wikipedia/commons/f/f9/Unisys_logo.svg" alt="unisys logo">
+
+!SECTION bg-yellow color-green
+2000s – Web 2.0
+
+
+
+

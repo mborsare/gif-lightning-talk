@@ -32,12 +32,34 @@ $red: #EF2E46;
     border: 6px solid black;
   }
 
-  img {
+  .img-drop {
     @extend %img-treatment;
+
+    &.black {
+      -webkit-box-shadow: 10px 10px 0px 6px rgba(50, 50, 50, 0.75);
+    }
   }
 }
 
 body {
+  iframe {
+    border: none;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .color-green {
+    h1 {
+      color: $green;
+    }
+  }
+
   &.bg-dotpattern {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=) repeat;
   }
@@ -64,6 +86,10 @@ body {
 
   &.bg-yellow {
     background-color: $yellow;
+  }
+
+  &.bg-red {
+    background-color: $red;
   }
 
   %split {
@@ -101,6 +127,21 @@ body {
   }
 
   .img-airplane {
+    height: 450px;
+    width: auto;
+  }
+
+  #unisys {
+    width: 400px;
+    height: auto;
+  }
+
+  #bugsdaffy {
+    -webkit-animation-delay: 1.75s;
+  }
+
+  .split-copy {
+    -webkit-animation-delay: 1.5s;
   }
 
   .COMMANDLINE {
@@ -183,15 +224,14 @@ section {
       color: #00ffff;
     }
   }
-}
 
-section.CODE code {
-  /*
-  border-radius: 30px;
-  */
-  border-bottom-right-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
-  box-shadow: 0 0.3em 0.2em -0.2em #ddd7c4;
+  &.CODE {
+    code {
+      border-bottom-right-radius: 0.5em;
+      border-bottom-left-radius: 0.5em;
+      box-shadow: 0 0.3em 0.2em -0.2em #ddd7c4;
+    }
+  }
 }
 
 #timer {
