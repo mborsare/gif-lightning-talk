@@ -133,7 +133,7 @@ ironic, fun, hand in hand with memes
 The Future?
 
 !IMAGE bg-hatch
-<video class="img-drop" src="http://i.imgur.com/zvATqgs.webm" autoplay loop></video>
+<video class="img-drop" src="http://i.imgur.com/zvATqgs.webm" autoplay="autoplay" loop></video>
 
 !SECTION bg-green pad
 Project GIFV implements video in a way that looks and behaves exactly like a GIF
