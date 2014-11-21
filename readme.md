@@ -9,4 +9,4 @@
 5. Point your browser to <http://localhost:9090>
 
 ###A note
-Trickster won't live reload. You're going to have to run ```trickster build``` in the terminal then refresh your browser to see changes.
+Trickster won't live reload. You're going to have to run ```trickster build``` in the terminal then refresh your browser to see changes. Also the generated markup will be jank.
