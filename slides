@@ -1,6 +1,6 @@
-Gifs!
+GIFs!
 !TITLE bg-gray
-<h1>A Brief History of <span>Gifs</span></h1>
+A Brief History of <span>GIFs</span>
 
 !SECTION bg-green
 ?
@@ -23,14 +23,14 @@ Gifs!
 </div>
 
 !SECTION bg-green
-they are both right.
+They are both right
 
 !SECTION bg-yellow color-green
 1987 – Birth
 
 !FREEFORM bg-dotpattern
-<img class="animated bounceIn img-drop" src="assets/steve-03.gif" alt="Steve Wilhite" width="250px">
-<h4>Steve Wilhite</h4>
+  <img class="animated bounceIn img-drop" src="assets/steve-03.gif" alt="Steve Wilhite" width="250px">
+  <h4>Steve Wilhite</h4>
 
 !IMAGE bg-dash <!-- compuserve logo -->
 <img class="img-drop" src="http://media.giphy.com/media/frTgEFLFtcqVW/giphy.gif" alt="compuserve">
@@ -45,36 +45,40 @@ They needed to show weather maps
 !SECTION bg-green
 Specs
 
-!SECTION
+!SECTION bg-yellow color-green
 256 colors
-Allowed animation (its saviour),
-Used lzw (uh-oh),
 Lossless
 
-!SECTION bg-gray
-The
+!SECTION bg-yellow color-green
+Allowed animation (!!!)
+Used LZW compression
 
 !SECTION bg-gray
-First
-
-!SECTION bg-gray
-.GIF
+The first GIF
 
 !IMAGE bg-dotpattern
 <img class="img-drop" src="/assets/steve-airplane.jpg" alt="first gif" width="450px">
 
-!SECTION bg-green
+!SECTION bg-green pad
 ”The future of computer graphics, online or offline, will almost certainly center on GIF.”
+<cite>– 1989 issue of Online Today, CompuServe's magazine</cite>
 
-!SECTION bg-gray
-Yes – the future.
+!SECTION bg-yellow color-green
+The 90s – Ubiquity
+
+!SECTION bg-green
+<img class="img-drop" src="http://media.giphy.com/media/anjRJ4nv9WJzO/giphy.gif" alt="netscape">
+Netscape 2.0 makes 'em loop
+
+!SECTION bg-green
+Geocities
 
 !SECTION bg-black
 <iframe src="http://caccioppoli.com/Gifs%20animation%20arrows%20back%20construction%20directions.htm" name="gifs" scrolling="auto">
 </iframe>
 
 !SECTION bg-black
-<iframe src="http://caccioppoli.com/Gifs%20Flags%20one.htm" name="gifs" scrolling="auto">
+<iframe src="http://caccioppoli.com/email%20signs%20directions%20arrows%20welcome%20benvenuti%20machinery%20new%20gifs.htm" name="gifs" scrolling="auto">
 </iframe>
 
 !SECTION bg-black
@@ -82,26 +86,62 @@ Yes – the future.
 </iframe>
 
 !SECTION bg-yellow color-green
-90s – Crisis
+A brief bit of trouble
 
 !IMAGE bg-dotpattern
-<img class="animated bounceIn" src="http://upload.wikimedia.org/wikipedia/commons/f/f9/Unisys_logo.svg" alt="unisys logo" width="400px">
+<img id="unisys" class="animated bounceIn" src="http://upload.wikimedia.org/wikipedia/commons/f/f9/Unisys_logo.svg" alt="unisys logo" width="400px">
+
+!SECTION bg-gray color-green
+PNG
+<span class="span-emphasis">"Ping Not GIF"</span>
 
 !SECTION bg-yellow color-green
-2000s – Web 2.0
+early 2000s
+
+!IMAGE bg-black
+<img src="http://cdn5.howtogeek.com/wp-content/uploads/2010/10/DANCING_BABY.gif" alt="dancing baby">
+
+!IMAGE bg-green
+<img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/059/892/gerbil20110724-22047-1d239dr.gif" alt="hamster" width="100px">
+
+!SECTION bg-green
+late 00s to Now
 
 !SECTION bg-green
 tumblr, twitter, et al. happen
 
 !SECTION bg-gray
-all the sudden there’s a way to distribute gifs
+All of the sudden there’s a way to distribute GIFs
 
 !SECTION bg-green
 ironic, fun, hand in hand with memes
 
 !IMAGE bg-black
-<div class="keyboard-cat flex">
-  <h1>meoooowww</h1>
+<div class="keyboard-cat"></div>
+
+!IMAGE bg-dash
+<img class="img-drop" src="http://giant.gfycat.com/SaneSpeedyAsiantrumpetfish.gif" alt="Demolotion Man full movie gif">
+
+!SECTION bg-black
+GIPHY
+
+!SECTION bg-yellow color-green pad
+The Future?
+
+!IMAGE bg-hatch
+<video class="img-drop" src="http://i.imgur.com/zvATqgs.webm" autoplay loop></video>
+
+!SECTION bg-green pad
+Project GIFV implements video in a way that looks and behaves exactly like a GIF.
+
+!IMAGE bg-black
+<img src="http://media2.giphy.com/media/DAtJCG1t3im1G/giphy.gif" alt="Buster Keaton the end">
+
+!FREEFORM bg-gray
+<div class="WTF">
+  <h1>Sources</h1>
+  <p>knowyourmeme.com/memes/subcultures/gif</p>
+  <p>gsbrown.org/compuserve/computer-users-choose-gif/</p>
+  <p>caccioppoli.com</p>
+  <p>giphy.com</p>
 </div>
-
-

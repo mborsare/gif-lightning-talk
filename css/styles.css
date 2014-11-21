@@ -2126,6 +2126,9 @@ Copyright (c) 2014 Daniel Eden
   src: url("/assets/8-bit-madness-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+* {
+  box-sizing: border-box; }
+
 #contents {
   align-items: center;
   justify-content: center;
@@ -2135,9 +2138,12 @@ Copyright (c) 2014 Daniel Eden
   text-rendering: optimizeLegibility; }
   #contents .img-drop {
     -webkit-box-shadow: 10px 10px 0px 6px rgba(20, 239, 173, 0.75);
-    border: 6px solid black; }
+    border: 6px solid black;
+    margin-bottom: 20px; }
   #contents .img-drop.black {
     -webkit-box-shadow: 10px 10px 0px 6px rgba(50, 50, 50, 0.75); }
+  #contents section h1 {
+    font-size: 1.5em; }
 
 body iframe {
   border: none;
@@ -2148,11 +2154,19 @@ body iframe {
   position: fixed;
   top: 0;
   width: 100vw; }
+body .span-emphasis {
+  color: #FFFFD5; }
+body cite {
+  display: block;
+  margin-top: 2em;
+  font-style: normal; }
 body .flex {
   display: flex; }
+body .pad {
+  padding: 0 10%; }
 body .keyboard-cat {
   background-image: url("http://media.giphy.com/media/8l98VVUTKPhbG/giphy.gif");
-  background-size: 200px;
+  background-size: cover;
   width: 100vw;
   height: 100vh; }
 body .color-green h1 {
@@ -2194,6 +2208,8 @@ body .split-yellow {
     color: #14EFAD; }
 body #bugsdaffy {
   -webkit-animation-delay: 1.75s; }
+body #unisys {
+  margin-bottom: 15%; }
 body .split-copy {
   -webkit-animation-delay: 1.5s; }
 body .COMMANDLINE {
