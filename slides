@@ -29,7 +29,7 @@ They are both right
 1987 – Birth
 
 !FREEFORM bg-dotpattern
-  <img class="animated bounceIn img-drop" src="assets/steve-03.gif" alt="Steve Wilhite" width="250px">
+  <img class="animated bounceIn img-drop" src="../assets/steve-03.gif" alt="Steve Wilhite" width="250px">
   <h4>Steve Wilhite</h4>
 
 !IMAGE bg-dash <!-- compuserve logo -->
@@ -61,7 +61,7 @@ Used LZW compression
 The first GIF
 
 !IMAGE bg-dotpattern
-<img class="img-drop" src="/assets/steve-airplane.jpg" alt="first gif" width="450px">
+<img class="img-drop" src="../assets/steve-airplane.jpg" alt="first gif" width="450px">
 
 !SECTION bg-green pad
 ”The future of computer graphics, online or offline, will almost certainly center on GIF.”
